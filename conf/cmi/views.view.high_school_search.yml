@@ -658,7 +658,7 @@ display:
           exposed: true
           expose:
             operator_id: educational_mission_filter_op
-            label: 'Select a special educational task'
+            label: 'Select special general upper secondary school emphasis (special educational task)'
             description: ''
             use_operator: false
             operator: educational_mission_filter_op
