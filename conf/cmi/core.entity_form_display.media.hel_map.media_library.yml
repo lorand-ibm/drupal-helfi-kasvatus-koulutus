@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
+    - field.field.media.hel_map.field_map_identifier
     - field.field.media.hel_map.field_media_hel_map
     - media.type.hel_map
 _core:
@@ -13,6 +14,14 @@ targetEntityType: media
 bundle: hel_map
 mode: media_library
 content:
+  field_map_identifier:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   name:
     type: string_textfield
     weight: 0
